@@ -15,11 +15,12 @@ const navItems = [
 function App() {
   return (
     <div className="sitewrapper">
-      <div>
-        <Header /*pagetitle="Tordis laver så mange pagetitles"*/ />
+
+      <Header /*pagetitle="Tordis laver så mange pagetitles"*/ />
+      <div className='navMainWrapper'>
+        <Nav items={navItems} />
+        <Main />
       </div>
-      <Nav items={navItems} />
-      <Main />
       <Footer items={navItems} />
     </div>
   );
