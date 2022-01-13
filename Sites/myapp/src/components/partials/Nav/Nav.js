@@ -1,3 +1,4 @@
+import './Nav.scss'
 
 export const Nav = (props) => {
     return (
@@ -5,7 +6,7 @@ export const Nav = (props) => {
             <ul>
                 {props.items.map((item, key) => {
                     return (
-                        //key for ellers brokker den sig (skal have en unik key)
+                        //key for ellers brokker den sig (skal have en unik key) (key starter på 0 og går op efter)
                         <ListItem key={key} name={item} />
                     )
                 })}

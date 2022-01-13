@@ -1,0 +1,89 @@
+.sitewrapper {
+  margin-inline: 3vw;
+}
+
+.sitewrapper header {
+  background-color: #4fb0ce;
+  height: 5vw;
+  /* width: 100%; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sitewrapper header h1 {
+  padding-left: .5vw;
+}
+
+.sitewrapper .navMainWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5fr;
+      grid-template-columns: 1fr 5fr;
+}
+
+.sitewrapper .navMainWrapper nav {
+  margin-top: .6vw;
+}
+
+.sitewrapper .navMainWrapper nav ul {
+  list-style: none;
+  margin-left: -1vw;
+}
+
+.sitewrapper .navMainWrapper nav ul li {
+  padding-bottom: 1vw;
+  font-size: 1.5vw;
+}
+
+.sitewrapper .navMainWrapper nav ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+.sitewrapper .navMainWrapper nav ul li a:hover {
+  color: #5aa15a;
+}
+
+main article:nth-child(odd) {
+  color: #5aa15a;
+}
+
+main article:nth-child(even) {
+  color: #4fb0ce;
+}
+
+main article p {
+  color: #1b1b1b;
+}
+
+.sitewrapper footer {
+  background-color: #4fb0ce;
+  height: 5vw;
+}
+
+.sitewrapper footer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-top: 2vw;
+}
+
+.sitewrapper footer nav ul li {
+  padding-right: 2vw;
+}
+
+.sitewrapper footer nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+
+.sitewrapper footer nav ul li a:hover {
+  color: #2f2c74;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=App.css.map */

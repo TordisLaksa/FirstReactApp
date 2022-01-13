@@ -1,0 +1,25 @@
+footer{
+    background-color: rgb(79, 176, 206);
+    height: 5vw;
+    nav{
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding-top: 2vw;
+            li{
+                padding-right: 2vw;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 1.2vw;
+                    font-weight: 400;
+                    &:hover{
+                        color: rgb(47, 44, 116);
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

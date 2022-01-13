@@ -1,0 +1,13 @@
+main{
+    article{
+        &:nth-child(odd){
+            color:rgb(90, 161, 90)
+          }
+        &:nth-child(even){
+            color:rgb(79, 176, 206)
+          }
+        p{
+            color: rgb(27, 27, 27);
+        }
+    }
+}
